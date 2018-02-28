@@ -4,7 +4,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
 ### 1st Session-Process Creation
 System calls consist of fork(), exect(), wait()
 
-### 2nd Session-The cheduling Algorithms
+### 2nd Session-The scheduling Algorithms
 has not held yet!
 
 ### Instructor
