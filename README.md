@@ -1,8 +1,11 @@
 ### Operating System Lab 962 
 Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018-1396
 
-### First Session-Process Creation
+### 1st Session-Process Creation
 System calls consist of fork(), exect(), wait()
+
+### 2nd Session-The cheduling Algorithms
+has not held yet!
 
 ### Instructor
 * **Javad PourMostafa Roshan Sharami** 
