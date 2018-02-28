@@ -8,7 +8,7 @@ System calls consist of fork(), exect(), wait()
 has not held yet!
 
 ### Instructor
-* **Javad PourMostafa Roshan Sharami** 
+* **Javad PourMostafa** 
 
 ### License
 
