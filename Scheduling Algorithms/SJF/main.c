@@ -6,7 +6,7 @@ int main() {
   printf("Enter Total Number of Processes:");
   scanf("%d",&n);
 
-  printf("Enter Burst Time:\n");
+  printf("Enter the following Burst Times:\n");
   for (i = 0; i < n; i++) {
     /* code */
     printf("Burst Time P[%d]:",i+1);
