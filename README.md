@@ -9,13 +9,13 @@ System calls consist of fork(), exect(), wait()
 ### The CPU scheduling Algorithms
 FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
 
-### Supported PLs
+## Supported PLs
 C so far
 
 ## Instructor
 * [Javad PourMostafa](http://github.com/joyebright)
 
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
