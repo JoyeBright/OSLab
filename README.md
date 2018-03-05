@@ -5,7 +5,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
 System calls consist of fork(), exect(), wait()
 
 ### The CPU scheduling Algorithms
-FCFS, SJF
+FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
 
 ### Supported PLs
 C so far
