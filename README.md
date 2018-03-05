@@ -13,7 +13,7 @@ FCFS, SJF and also other Algorithms will be programmed by students in different 
 C so far
 
 ### Instructor
-* **Javad PourMostafa** 
+[Javad PourMostafa](http://github.com/joyebright)
 
 ### License
 
