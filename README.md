@@ -12,8 +12,8 @@ FCFS, SJF and also other Algorithms will be programmed by students in different 
 ### Supported PLs
 C so far
 
-### Instructor
-[Javad PourMostafa](http://github.com/joyebright)
+## Instructor
+* [Javad PourMostafa](http://github.com/joyebright)
 
 ### License
 
