@@ -1,5 +1,7 @@
-### Operating System Lab 962 
+# Operating System Lab 962 
 Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018-1396
+
+## Contents
 
 ### Process Creation
 System calls consist of fork(), exect(), wait()
