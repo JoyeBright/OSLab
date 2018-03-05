@@ -8,7 +8,7 @@ System calls consist of fork(), exect(), wait()
 FCFS, SJF
 
 ### Supported PLs
-C 
+C so far
 
 ### Instructor
 * **Javad PourMostafa** 
