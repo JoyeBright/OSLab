@@ -1,16 +1,21 @@
-### Operating System Lab 962 
-Codes written in C for Operating System Lab course offered at University of Guilan in 2nd semester of 2018-1396
+# Operating System Lab 962 
+Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018-1396
 
-### Process Creation
-System calls consist of fork(), exect(), wait()
+## Contents
 
-### The CPU scheduling Algorithms
-FCFS, SJF
+* ### Process Creation
+  System calls consist of fork(), exect(), wait()
 
-### Instructor
-* **Javad PourMostafa** 
+* ### The CPU scheduling Algorithms
+  FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
 
-### License
+## Supported PLs
+C so far
+
+## Instructor
+* [Javad PourMostafa](http://github.com/joyebright)
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
