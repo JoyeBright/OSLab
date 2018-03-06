@@ -49,7 +49,7 @@ int main() {
     awt = awt+wt[i];
     printf("\np[%d] \t\t %d \t\t %d \t\t %d",i+1,bt[i],wt[i],tat[i]);
   }
-  
+
   awt = awt/n;
   atat = atat/n;
   printf("\nAverage Waiting Time:%.2f\n",awt);
