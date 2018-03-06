@@ -14,7 +14,7 @@ int main()
       scanf("%d",&bt[i]);
       tbt=tbt+bt[i]; //It is not needed
   }
-//Calculating Waiting Time...............................
+//Calculating Waiting Time.................................
   wt[0]=0;
   for(i=1;i<n;i++)
   {
@@ -26,7 +26,7 @@ int main()
   }
   twt +=wt[0];
 
-//Calculating Turnaround Time..............................
+//Calculating Turnaround Time.................................
   tat[0] = bt[0];
   for(i=1;i<n;i++)
   {
@@ -37,16 +37,17 @@ int main()
     ttat = ttat + tat[i];
   }
   ttat += tat[0];
-//.................................Display the output.........................
+
+//Display the output.................................
  printf("\nProcess\t\t Burst Time \t\t Waiting Time \t\t TurnAround Time ");
-  for(i=0;i<n;i++)
-    printf("\nP[%d] \t\t\t %d \t\t\t %d \t\t\t %d",i+1,bt[i],wt[i],tat[i]);
-//Calculting AWT and ATAT...........................
+ for(i=0;i<n;i++)
+  printf("\nP[%d] \t\t\t %d \t\t\t %d \t\t\t %d",i+1,bt[i],wt[i],tat[i]);
+
+//Calculting AWT and ATAT.................................
   awt = twt/n;
   atat = ttat/n;
   printf("\nAverage Waitng Time: %.2f",awt );
   printf("\nAverage TurnAround Time: %.2f \n",atat );
 
-
-
+ return 0;
 }
