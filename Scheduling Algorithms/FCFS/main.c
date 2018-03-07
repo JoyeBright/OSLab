@@ -15,6 +15,7 @@ int main() {
     scanf("%d",&bt[i]);
   }
 
+  
 //Calculating Waiting Time---------------------------
 //Process1 = wt[0]
 //Process2 = wt[1]
