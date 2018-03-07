@@ -2,7 +2,7 @@
 
 int main() {
 
-  int n,i,j,bt[20],wt[20],tat[20];
+  int n,i,bt[20],wt[20],tat[20];
   float awt=0,atat=0;
 
   printf("\nPlease Enter Total number of the processes: \n");
