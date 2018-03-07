@@ -6,7 +6,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
 * ### Process Creation
   System calls consist of fork(), exect(), wait()
 
-* ### The CPU scheduling Algorithms
+* ### The CPU Scheduling Algorithms
   FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
 
 ## Supported PLs
