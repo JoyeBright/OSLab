@@ -8,6 +8,8 @@ Codes written for Operating System Lab course offered at University of Guilan in
 
 * ### The CPU Scheduling Algorithms
   FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
+  
+* ### Project Management Using GNU make
 
 ## Supported PLs
 C so far
