@@ -10,7 +10,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
   
 * ### The Disk Scheduling Algorithms
-  not defined yet
+  FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
 
 ## Supported PLs
 C so far
