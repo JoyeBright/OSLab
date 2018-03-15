@@ -1,0 +1,1140 @@
+%PDF-1.6%‚„œ”
+1 0 obj<</Names 8 0 R/Outlines 5 0 R/Metadata 82 0 R/Pages 2 0 R/SpiderInfo 68 0 R/StructTreeRoot 11 0 R/Type/Catalog>>endobj2 0 obj<</Count 7/Type/Pages/Kids[7 0 R 31 0 R 35 0 R 38 0 R 42 0 R 45 0 R 48 0 R]>>endobj3 0 obj<</CreationDate(D:20061106102524+03'30')/Producer(Acrobat Web Capture 7.0)/ModDate(D:20061106102554+03'30')/Title(CS Students Linux User's Guide - Writing a Makefile)>>endobj5 0 obj<</First 80 0 R/Count 2/Last 80 0 R/Type/Outlines>>endobj7 0 obj<</Annots 18 0 R/Parent 2 0 R/ID 74 0 R/StructParents 0/Contents 57 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</TT0 54 0 R/T1_0 52 0 R/T1_1 53 0 R/T1_2 56 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj8 0 obj<</IDS 78 0 R/Dests 9 0 R/URLS 79 0 R>>endobj9 0 obj<</Names[(Õ=O≈≈1û:ıïLä¡makefile)29 0 R(Õ=O≈≈1û:ıïLä¡makefile_autodependency)44 0 R(Õ=O≈≈1û:ıïLä¡makefile_builtinvars)40 0 R(Õ=O≈≈1û:ıïLä¡makefile_conclusion)47 0 R(Õ=O≈≈1û:ıïLä¡makefile_how)34 0 R(Õ=O≈≈1û:ıïLä¡makefile_patterns)41 0 R(Õ=O≈≈1û:ıïLä¡makefile_simple)33 0 R(Õ=O≈≈1û:ıïLä¡makefile_variables)37 0 R(Õ=O≈≈1û:ıïLä¡makefile_why)30 0 R(Õ=O≈≈1û:ıïLä¡top)10 0 R]>>endobj10 0 obj[7 0 R/XYZ 0 755.636 null]endobj11 0 obj<</K 13 0 R/ParentTree 15 0 R/ParentTreeNextKey 7/Type/StructTreeRoot/ClassMap 12 0 R>>endobj12 0 obj<</SpdrArt<</O/WebCapture>>>>endobj13 0 obj<</K 14 0 R/P 11 0 R/S/Document>>endobj14 0 obj<</C/SpdrArt/K[0<</MCID 0/Pg 31 0 R/Type/MCR>><</MCID 0/Pg 35 0 R/Type/MCR>><</MCID 0/Pg 38 0 R/Type/MCR>><</MCID 0/Pg 42 0 R/Type/MCR>><</MCID 0/Pg 45 0 R/Type/MCR>><</MCID 0/Pg 48 0 R/Type/MCR>>]/P 13 0 R/S/Article/T()/Pg 7 0 R>>endobj15 0 obj<</Nums[0 16 0 R 1 32 0 R 2 36 0 R 3 39 0 R 4 43 0 R 5 46 0 R 6 49 0 R]>>endobj16 0 obj[14 0 R]endobj17 0 obj<</Rect[120.052 630.0 216.268 643.0]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</URI(mailto:jaco@kroon.co.za)/S/URI>>/Border[0 0 0]>>endobj18 0 obj[17 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R]endobj19 0 obj<</Rect[10.0 522.8 125.368 535.8]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile)/S/URI>>/Border[0 0 0]>>endobj20 0 obj<</Rect[50.0 506.4 193.388 519.4]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_why)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_why)/S/URI>>/Border[0 0 0]>>endobj21 0 obj<</Rect[50.0 490.0 226.064 503.0]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_simple)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_simple)/S/URI>>/Border[0 0 0]>>endobj22 0 obj<</Rect[50.0 473.6 394.784 486.6]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_how)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_how)/S/URI>>/Border[0 0 0]>>endobj23 0 obj<</Rect[50.0 457.2 162.716 470.2]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_variables)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_variables)/S/URI>>/Border[0 0 0]>>endobj24 0 obj<</Rect[50.0 440.8 202.724 453.8]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_builtinvars)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_builtinvars)/S/URI>>/Border[0 0 0]>>endobj25 0 obj<</Rect[50.0 424.4 237.416 437.4]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_patterns)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_patterns)/S/URI>>/Border[0 0 0]>>endobj26 0 obj<</Rect[50.0 408.0 184.748 421.0]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_autodependency)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_autodependency)/S/URI>>/Border[0 0 0]>>endobj27 0 obj<</Rect[50.0 391.6 210.74 404.6]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</D(Õ=O≈≈1û:ıïLä¡makefile_conclusion)/S/GoTo>>/PA<</URI(http://tlug.up.ac.za/old/csslug/writing_makefiles.html#makefile_conclusion)/S/URI>>/Border[0 0 0]>>endobj28 0 obj<</Rect[509.3 356.2 602.0 369.2]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</URI(http://tlug.up.ac.za/old/csslug/csslug.html)/S/URI>>/Border[0 0 0]>>endobj29 0 obj[7 0 R/XYZ 0 319.0 null]endobj30 0 obj[7 0 R/XYZ 0 261.8 null]endobj31 0 obj<</Parent 2 0 R/ID 74 0 R/StructParents 1/Contents 58 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</TT0 54 0 R/T1_0 52 0 R/T1_1 53 0 R/T1_2 56 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj32 0 obj[14 0 R]endobj33 0 obj[31 0 R/XYZ 0 736.4 null]endobj34 0 obj[31 0 R/XYZ 0 140.905 null]endobj35 0 obj<</Parent 2 0 R/ID 74 0 R/StructParents 2/Contents 60 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</TT0 54 0 R/T1_0 52 0 R/T1_1 59 0 R/T1_2 53 0 R/T1_3 56 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj36 0 obj[14 0 R]endobj37 0 obj[35 0 R/XYZ 0 496.505 null]endobj38 0 obj<</Parent 2 0 R/ID 74 0 R/StructParents 3/Contents 63 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</TT0 54 0 R/TT1 61 0 R/T1_0 52 0 R/T1_1 56 0 R/T1_2 53 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj39 0 obj[14 0 R]endobj40 0 obj[38 0 R/XYZ 0 721.2 null]endobj41 0 obj[38 0 R/XYZ 0 415.8 null]endobj42 0 obj<</Parent 2 0 R/ID 74 0 R/StructParents 4/Contents 64 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</TT0 54 0 R/T1_0 52 0 R/T1_1 56 0 R/T1_2 53 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj43 0 obj[14 0 R]endobj44 0 obj[42 0 R/XYZ 0 534.4 null]endobj45 0 obj<</Parent 2 0 R/ID 74 0 R/StructParents 5/Contents 65 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</T1_0 52 0 R/T1_1 56 0 R/T1_2 53 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj46 0 obj[14 0 R]endobj47 0 obj[45 0 R/XYZ 0 335.4 null]endobj48 0 obj<</Annots 51 0 R/Parent 2 0 R/ID 74 0 R/StructParents 6/Contents 66 0 R/MediaBox[0.0 0.0 612.0 792.0]/Resources<</Font<</T1_0 52 0 R/T1_1 56 0 R>>/ProcSet[/PDF/Text]>>/Type/Page>>endobj49 0 obj[14 0 R]endobj50 0 obj<</Rect[501.2 680.4 602.0 693.4]/Subtype/Link/BS<</S/S/W 0/Type/Border>>/A<</URI(http://tlug.up.ac.za/old/csslug/csslug.html)/S/URI>>/Border[0 0 0]>>endobj51 0 obj[50 0 R]endobj52 0 obj<</Subtype/Type1/BaseFont/Times-Roman/Encoding/WinAnsiEncoding/Type/Font>>endobj53 0 obj<</Subtype/Type1/BaseFont/Helvetica-Bold/Encoding/WinAnsiEncoding/Type/Font>>endobj54 0 obj<</Subtype/TrueType/FontDescriptor 55 0 R/LastChar 255/Widths[750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 350 556 350 222 556 333 1000 556 556 333 1000 667 333 1000 350 611 350 350 222 222 333 333 350 556 1000 333 1000 500 333 944 350 500 667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 500]/BaseFont/Arial/FirstChar 0/Encoding/WinAnsiEncoding/Type/Font>>endobj55 0 obj<</StemV 88/FontName/Arial/FontStretch/Normal/FontWeight 400/Flags 32/Descent -325/FontBBox[-665 -325 2000 1006]/Ascent 1006/FontFamily(Arial)/CapHeight 716/XHeight 519/Type/FontDescriptor/ItalicAngle 0>>endobj56 0 obj<</Subtype/Type1/BaseFont/Courier/Encoding/WinAnsiEncoding/Type/Font>>endobj57 0 obj<</Length 3585>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/WebCaptureBG BMC 
+/WebCaptureFN <</L 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+/Artifact <</Type /Layout /BBox [25 137 535 161.4 ]>>BDC 
+Q
+0.816 0.816 0.816 rg
+25 137 510 24.4 re
+f
+EMC 
+EMC 
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+0 0 0 rg
+BT
+/T1_1 1 Tf
+24 0 0 24 122.436 725.9708 Tm
+(CS Students Linux User's Guide)Tj
+20 0 0 20 220.98 681.6757 Tm
+(Writing a Makefile)Tj
+/TT0 1 Tf
+12 0 0 12 10 647.1301 Tm
+( )Tj
+0 -1.1 TD
+(Author: Jaco Kroon \()Tj
+ET
+0 0 1 RG
+0.576 w 10 M 0 j 0 J []0 d 
+120.052 632.202 m
+216.268 632.202 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 120.052 633.9301 Tm
+(jaco@kroon.co.za)Tj
+0 0 0 rg
+(\) )Tj
+-9.171 -1.367 Td
+(Version: 1.0 )Tj
+0 -1.2 TD
+(Last modified: Mon Aug 11 13:27:34 SAST 2003 )Tj
+/T1_1 1 Tf
+20 0 0 20 10 562.4757 Tm
+(Table of Contents)Tj
+ET
+10 525.002 m
+125.368 525.002 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 10 526.7301 Tm
+(4.2 Writing a Makefile)Tj
+0 0 0 rg
+( )Tj
+ET
+50 508.602 m
+193.388 508.602 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 510.3301 Tm
+(4.2.1 Why Use a Makefile?)Tj
+0 0 0 rg
+( )Tj
+ET
+50 492.202 m
+226.064 492.202 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 493.9301 Tm
+(4.2.2 A Simple Makefile Example)Tj
+0 0 0 rg
+( )Tj
+ET
+50 475.802 m
+394.784 475.802 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 477.5301 Tm
+(4.2.3 How Does make Determine Which Commands to Execute?)Tj
+0 0 0 rg
+( )Tj
+ET
+50 459.402 m
+162.716 459.402 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 461.1301 Tm
+(4.2.4 Make Variables)Tj
+0 0 0 rg
+( )Tj
+ET
+50 443.002 m
+202.724 443.002 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 444.7301 Tm
+(4.2.5 Built-in make Variables)Tj
+0 0 0 rg
+( )Tj
+ET
+50 426.602 m
+237.416 426.602 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 428.3301 Tm
+(4.2.6 Pattern Matching in Makefiles)Tj
+0 0 0 rg
+( )Tj
+ET
+50 410.202 m
+184.748 410.202 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 411.9301 Tm
+(4.2.7 Auto Dependencies)Tj
+0 0 0 rg
+( )Tj
+ET
+50 393.802 m
+210.74 393.802 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 50 395.5301 Tm
+(4.2.8 Concluding on Makefiles)Tj
+0 0 0 rg
+( )Tj
+ET
+509.3 358.402 m
+602 358.402 l
+S
+0 0 1 rg
+BT
+/TT0 1 Tf
+12 0 0 12 509.3 360.1301 Tm
+(Back to CSSLUG)Tj
+ET
+0.5 0.5 0.5 rg
+10 326 m
+10 328 l
+602 328 l
+601 327 l
+11 327 l
+11 327 l
+h
+f
+0.875 0.875 0.875 rg
+602 328 m
+602 326 l
+10 326 l
+11 327 l
+601 327 l
+601 327 l
+h
+f
+0 0 0 rg
+BT
+/T1_1 1 Tf
+16 0 0 16 10 285.9805 Tm
+(4.2 Writing a Makefile)Tj
+0 -2.388 TD
+(4.2.1 Why Use a Makefile?)Tj
+/TT0 1 Tf
+12 0 0 12 10 213.3301 Tm
+(In any project you can have any number of source files. Now imagine havi\ng to recompile even the simplest of )Tj
+0 -1.2 TD
+(programs consisting of two source files, binarytree.c and mainprog.c. Yo\u will need to type the following )Tj
+T*
+(command:)Tj
+/T1_2 1 Tf
+2.083 -3.208 Td
+(gcc -o outprogname binarytree.c mainprog.c)Tj
+/TT0 1 Tf
+-2.083 -3.192 Td
+(Now, since that mainprog.c files takes ages to compile, you don't want t\o recompile it everytime, the same )Tj
+T*
+(goes for the binarytree.c file. Now imagine you had a hundred source fil\es \(think big, and then some more\).)Tj
+0 -2.783 TD
+(A Makefile makes this simple by allowing us to specify rules \(consistin\g of dependencies and commands\) to )Tj
+0 -1.2 TD
+(build our project.)Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+0 0 0 rg
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(1 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj58 0 obj<</Length 3437>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/WebCaptureBG BMC 
+/WebCaptureFN <</L 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+/Artifact <</Type /Layout /BBox [25 358 535 411.2 ]>>BDC 
+Q
+0.816 0.816 0.816 rg
+25 358 510 53.2 re
+f
+EMC 
+EMC 
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+0.5 0.5 0.5 rg
+10 743.4 m
+10 745.4 l
+602 745.4 l
+601 744.4 l
+11 744.4 l
+11 744.4 l
+h
+f
+0.875 0.875 0.875 rg
+602 745.4 m
+602 743.4 l
+10 743.4 l
+11 744.4 l
+601 744.4 l
+601 744.4 l
+h
+f
+0 0 0 rg
+BT
+/T1_1 1 Tf
+16 0 0 16 10 703.3805 Tm
+(4.2.2 A Simple Makefile Example)Tj
+/TT0 1 Tf
+12 0 0 12 10 668.9301 Tm
+(The following is a very simple, but complete Makefile:)Tj
+/T1_2 1 Tf
+14 0 0 14 25 633.7082 Tm
+(outprogname : binarytree.o mainprog.o)Tj
+0 -1.2 TD
+(        gcc -o outprogname binarytree.o mainprog.o)Tj
+0 -2.4 TD
+(binarytree.o : binarytree.c)Tj
+0 -1.2 TD
+(        gcc -c binarytree.c)Tj
+0 -2.4 TD
+(mainprog.o : mainprog.c)Tj
+0 -1.2 TD
+(        gcc -c mainprog.c)Tj
+/TT0 1 Tf
+12 0 0 12 10 482.1301 Tm
+(Please note that the indented lines begins with a tab character.)Tj
+0 -2.783 TD
+(In the case where both files needs to be compiled, make will issue three\ commands - yes this can be wasteful )Tj
+0 -1.2 TD
+(- namely:)Tj
+/T1_2 1 Tf
+2.083 -3.208 Td
+(gcc -c binaryproc.c)Tj
+T*
+(gcc -c binarytree.c)Tj
+T*
+(gcc -o outprogname binarytree.o mainprog.o)Tj
+/TT0 1 Tf
+-2.083 -3.192 Td
+(It is clear that these are the indented lines. You could have executed a\ll of these commands by hand, if you )Tj
+0 -1.208 TD
+(were so inclined \(programmers are known to be lazy\), but typing )Tj
+/T1_2 1 Tf
+(make)Tj
+/TT0 1 Tf
+( is easier. Now going on to dissect the )Tj
+0 -1.2 TD
+(above, a Makefile consists of a set of rules. Each rule consists of depe\ndencies and commands. The lines with )Tj
+T*
+(the colons in are dependencies and the lines that are tabbed in is comma\nds. For each dependency, the )Tj
+T*
+(commands required to bring the target - the file\(s\) before the colon -\ up to date follows it one the next line, )Tj
+T*
+(indented with a tab character. The file\(s\) to the the right of the col\on is the files on which the target relies, )Tj
+T*
+(these are almost always used as input to the commands on the lines follo\wing the dependency.)Tj
+0 -2.783 TD
+(It should be clear that the two rules at the bottom of the given Makefil\e produces .o files, created from the .c )Tj
+0 -1.2 TD
+(files \(the -c flag tells gcc to compile the source file, but not link i\t\). The topmost rule takes the two object files )Tj
+T*
+(and links them together to create the final executable.)Tj
+ET
+0.5 0.5 0.5 rg
+10 147.905 m
+10 149.905 l
+602 149.905 l
+601 148.905 l
+11 148.905 l
+11 148.905 l
+h
+f
+0.875 0.875 0.875 rg
+602 149.905 m
+602 147.905 l
+10 147.905 l
+11 148.905 l
+601 148.905 l
+601 148.905 l
+h
+f
+0 0 0 rg
+BT
+/T1_1 1 Tf
+16 0 0 16 10 107.886 Tm
+(4.2.3 How Does make Determine Which Commands to Execute?)Tj
+/TT0 1 Tf
+12 0 0 12 10 73.4356 Tm
+(There are two reasons why make would decide a file needs to be made:)Tj
+1.943 -2.783 Td
+(1.  )Tj
+(The file does not exist )Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+0 0 0 rg
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(2 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj59 0 obj<</Subtype/Type1/BaseFont/ZapfDingbats/Type/Font>>endobj60 0 obj<</Length 3765>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+BT
+/TT0 1 Tf
+12 0 0 12 33.32 755.6356 Tm
+(2.  )Tj
+(The file is outdated )Tj
+-1.943 -2.783 Td
+(The first case is simple, the file does not exist - nuff said. The secon\d case should be reasonably clear as well. )Tj
+0 -1.2 TD
+(Considering the simple Makefile above, edit binarytree.c. You would now \like to compile outprogname. It relies )Tj
+T*
+(on binarytree.o and mainprog.o. binarytree.o in turn relies on binarytre\e.c and mainprog.o on mainprog.c. )Tj
+T*
+(You've just edited binarytree.c, so as you probably expect, binarytree.o\ is outdated and as a result so is )Tj
+T*
+(outprogname. Make then goes ahead and first builds binarytree.o and then\ outprogname using the commands )Tj
+T*
+(given.)Tj
+0 -2.783 TD
+(A file is considered outdated if and only if:)Tj
+/T1_1 1 Tf
+6 0 0 6 36.914 583.4356 Tm
+(l)Tj
+/TT0 1 Tf
+(     )Tj
+12 0 0 12 50 583.4356 Tm
+(It is listed on the left of a colon )Tj
+/T1_1 1 Tf
+6 0 0 6 36.914 569.0356 Tm
+(l)Tj
+/TT0 1 Tf
+(     )Tj
+12 0 0 12 50 569.0356 Tm
+(A file on the right of that same colon is newer than that file )Tj
+-3.333 -2.783 Td
+(File "a" is considered newer than file "b" if its last modified time is \more recent than file "b"'s.)Tj
+ET
+0.5 0.5 0.5 rg
+10 503.505 m
+10 505.505 l
+602 505.505 l
+601 504.505 l
+11 504.505 l
+11 504.505 l
+h
+f
+0.875 0.875 0.875 rg
+602 505.505 m
+602 503.505 l
+10 503.505 l
+11 504.505 l
+601 504.505 l
+601 504.505 l
+h
+f
+0 0 0 rg
+BT
+/T1_2 1 Tf
+16 0 0 16 10 463.486 Tm
+(4.2.4 Make Variables)Tj
+/TT0 1 Tf
+12 0 0 12 10 429.0356 Tm
+(Suppose you would like to use another C compiler, say cc. Now you can ei\ther replace gcc right through with )Tj
+0 -1.2 TD
+(cc, or you could have been smart and used variables. A make variable, as\ in any programming language, is )Tj
+T*
+(simply a place holder for another value. You can create such a variable \in a Makefile with a line such as:)Tj
+/T1_3 1 Tf
+14 0 0 14 25 365.0136 Tm
+(cc=gcc)Tj
+/TT0 1 Tf
+12 0 0 12 10 330.941 Tm
+(Actually, variables in make work very much like in bash scripting. So to\ actually replace the value of )Tj
+/T1_3 1 Tf
+(cc)Tj
+/TT0 1 Tf
+( \(which )Tj
+0 -1.208 TD
+(evaluates to )Tj
+/T1_3 1 Tf
+(gcc)Tj
+/TT0 1 Tf
+(\) just use )Tj
+/T1_3 1 Tf
+(${cc})Tj
+/TT0 1 Tf
+(. Same people prefer using \(\) instead of {}, but it doesn't matter whi\ch one )Tj
+0 -1.2 TD
+(you choose. Now let's asume that we would also like to be able to specif\y different levels of optimization as )Tj
+T*
+(well as those debugging flags Derick has mentioned. We would need to spe\cify the -O flags to the compile )Tj
+0 -1.208 TD
+(commands and the -g flag to all of them. Ok, so let's create two more va\riables: The first, called )Tj
+/T1_3 1 Tf
+(cflags)Tj
+/TT0 1 Tf
+(, )Tj
+T*
+(contains the flags we would like to pass to the compiler, and the second\, called )Tj
+/T1_3 1 Tf
+(ldflags)Tj
+/TT0 1 Tf
+(, contains the options )Tj
+0 -1.2 TD
+(we would like to pass to the linking command. The resulting Makefile wil\l look something like:)Tj
+/T1_3 1 Tf
+14 0 0 14 25 209.0354 Tm
+(cc=gcc)Tj
+T*
+(cflags=-O3 -g)Tj
+T*
+(ldflags=-g)Tj
+0 -2.4 TD
+(outprogname : binarytree.o mainprog.o)Tj
+0 -1.2 TD
+(    ${cc} ${ldflags} -o outprogname binarytree.o mainprog.o)Tj
+0 -2.4 TD
+(binarytree.o : binarytree.c)Tj
+0 -1.2 TD
+(    ${cc} ${cflags} -c binarytree.c)Tj
+0 -2.4 TD
+(mainprog.o : mainprog.c)Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(3 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj61 0 obj<</Subtype/TrueType/FontDescriptor 62 0 R/LastChar 255/Widths[750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 350 556 350 278 556 500 1000 556 556 333 1000 667 333 1000 350 611 350 350 278 278 500 500 350 556 1000 333 1000 556 333 944 350 500 667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 737 552 400 549 333 333 333 576 556 278 333 333 365 556 834 834 834 611 722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 611 556 556 556 556 556 556 889 556 556 556 556 556 278 278 278 278 611 611 611 611 611 611 611 549 611 611 611 611 611 556 611 556]/BaseFont/Arial,Bold/FirstChar 0/Encoding/WinAnsiEncoding/Type/Font>>endobj62 0 obj<</StemV 136/FontName/Arial,Bold/FontStretch/Normal/FontWeight 700/Flags 32/Descent -376/FontBBox[-628 -376 2000 1010]/Ascent 1010/FontFamily(Arial)/CapHeight 716/XHeight 519/Type/FontDescriptor/ItalicAngle 0>>endobj63 0 obj<</Length 3705>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+BT
+/T1_1 1 Tf
+14 0 0 14 25 753.9082 Tm
+(    ${cc} ${cflags} -c mainprog.c)Tj
+ET
+0.5 0.5 0.5 rg
+10 728.2 m
+10 730.2 l
+602 730.2 l
+601 729.2 l
+11 729.2 l
+11 729.2 l
+h
+f
+0.875 0.875 0.875 rg
+602 730.2 m
+602 728.2 l
+10 728.2 l
+11 729.2 l
+601 729.2 l
+601 729.2 l
+h
+f
+0 0 0 rg
+BT
+/T1_2 1 Tf
+16 0 0 16 10 688.1805 Tm
+(4.2.5 Built-in Make Variables)Tj
+/TT0 1 Tf
+12 0 0 12 10 653.7301 Tm
+(Now I'm really lazy, and I mean that. So I'm aiming at reducing the size\ of my Makefiles even more \(the )Tj
+0 -1.2 TD
+(previous step actually enlarged it, but it made mass adjustments easier \- similar to constants in large )Tj
+T*
+(programs\). Also, I would like to keep the amount of debugging I've got \to do in my Makefiles to a minimum. For )Tj
+T*
+(these, and probably many others, make has a few built-in variables. I li\st a few of the useful ones, along with )Tj
+T*
+(an explanation below:)Tj
+/TT1 1 Tf
+0.25 -3.006 Td
+(Variable)Tj
+4.224 0 Td
+(Description)Tj
+/TT0 1 Tf
+-4.224 -1.56 Td
+($@)Tj
+4.224 0 Td
+(This will always expand to the current target.)Tj
+-4.224 -1.533 Td
+($<)Tj
+4.224 0 Td
+(The name of the first prerequisite. This is the first item listed after \the colon. \(binarytree.o in the first )Tj
+T*
+(rule above\))Tj
+-4.224 -1.533 Td
+($?)Tj
+4.224 0 Td
+(The names of all the prerequisites that are newer than the target. In th\e above example this will )Tj
+T*
+(evaluate to binarytree.o for the first rule.)Tj
+-4.224 -1.533 Td
+($^)Tj
+4.224 0 Td
+(The names of all the prerequisites, with spaces between them. No duplica\tes)Tj
+-4.224 -1.533 Td
+($+)Tj
+4.224 0 Td
+(Like $^, but with duplicates. Items are listed in the order they were sp\ecified in the rule.)Tj
+ET
+0.5 0.5 0.5 rg
+10 422.8 m
+10 424.8 l
+602 424.8 l
+601 423.8 l
+11 423.8 l
+11 423.8 l
+h
+f
+0.875 0.875 0.875 rg
+602 424.8 m
+602 422.8 l
+10 422.8 l
+11 423.8 l
+601 423.8 l
+601 423.8 l
+h
+f
+0 0 0 rg
+BT
+/T1_2 1 Tf
+16 0 0 16 10 382.7805 Tm
+(4.2.6 Pattern Matching in Makefiles)Tj
+/TT0 1 Tf
+12 0 0 12 10 348.3301 Tm
+(As far as I know, this is a GNU extension, so if you plan to create very\ portable Makefiles, don't use it. In this )Tj
+T*
+(case I suggest you use tools such as autoproject, automake, autoconf to \build your Makefiles for you \(Sorry M)Tj
+T*
+($ fans, but the configure scripts created by these tools doesn't work on\ Windows AFAIK\).)Tj
+0 -2.783 TD
+(As I mentioned above, I would like to get my Makefiles to be as short an\d compact as possible. Now, )Tj
+0 -1.2 TD
+(considering the variables mentioned above, take a look at:)Tj
+/T1_1 1 Tf
+14 0 0 14 25 236.5082 Tm
+(binarytree.o : binarytree.c)Tj
+T*
+(    ${cc} ${cflags} -c $<)Tj
+0 -2.4 TD
+(mainprog.o : mainprog.c)Tj
+0 -1.2 TD
+(    ${cc} ${cflags} -c $<)Tj
+/TT0 1 Tf
+12 0 0 12 10 135.3301 Tm
+(Now I see a lot of repetition here. The only parts that differ here are \the bases of the filesnames. Luckily, there )Tj
+T*
+(is a way of compacting these two rules into one -- it's called pattern m\atching and has saved me quite a bit of )Tj
+T*
+(time in my short lifetime. To use a pattern, you use % where you would l\ike to actually match anything into it. )Tj
+T*
+(For example, the above could be written as:)Tj
+/T1_1 1 Tf
+14 0 0 14 25 56.9082 Tm
+(%.o : %.c)Tj
+T*
+(    ${cc} ${cflags} -c $<)Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(4 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj64 0 obj<</Length 3523>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+BT
+/TT0 1 Tf
+12 0 0 12 10 736.1301 Tm
+(Now that looks a lot simpler. In general, I have the following rule in a\ll my Makefiles:)Tj
+/T1_1 1 Tf
+14 0 0 14 25 700.9082 Tm
+(%.o : %.c Makefile)Tj
+0 -1.2 TD
+(    ${cc} ${cflags} -c $<)Tj
+/TT0 1 Tf
+12 0 0 12 10 650.1301 Tm
+(Which is identical to the above, except that it forces a complete recomp\ile each time I modify the Makefile. I do )Tj
+T*
+(this so that if I change my Makefile, changes will take effect. For exam\ple, so I drop the -O3 flag from the )Tj
+T*
+(cflags variable. Normally this would indicate that you would like the pr\oject to be recompiled without optimation)Tj
+0 -2.783 TD
+(Also, it must be mentioned that it becomes possible to have two rules fo\r the same target. I'm still not sure )Tj
+0 -1.2 TD
+(what make does in this case, but I suspect that both sets of commands ge\ts executed. )Tj
+ET
+0.5 0.5 0.5 rg
+10 541.4 m
+10 543.4 l
+602 543.4 l
+601 542.4 l
+11 542.4 l
+11 542.4 l
+h
+f
+0.875 0.875 0.875 rg
+602 543.4 m
+602 541.4 l
+10 541.4 l
+11 542.4 l
+601 542.4 l
+601 542.4 l
+h
+f
+0 0 0 rg
+BT
+/T1_2 1 Tf
+16 0 0 16 10 501.3805 Tm
+(4.2.7 Auto Dependencies)Tj
+/TT0 1 Tf
+12 0 0 12 10 466.9301 Tm
+(This is bordering on really advanced and I'm not always 100 % sure wheth\er this works \(according to the info )Tj
+T*
+(pages it should, but it sometimes seems that the makefile.dep file doesn\'t get reloaded\). Use with caution )Tj
+T*
+(\(even though you would definitely have the same problem without it\).)Tj
+0 -2.783 TD
+(In order to keep things simple, I often have a config.h file lying aroun\d somewhere \(this is also a convention in )Tj
+0 -1.2 TD
+(the autoproject set of tools\). Now if you change it you want all the fi\les that includes it to be recompiled. Oh )Tj
+T*
+(bugger, now which ones are those, since that other header file also incl\udes it. Now, what if we we're to list )Tj
+T*
+(every source file with all it's header files in a rule, and then all the\ header files with all the header files they )Tj
+T*
+(include etc...)Tj
+0 -2.783 TD
+(This will lead us back to where we began and it will probably be easiest\ to compile by hand again.)Tj
+0 -2.783 TD
+(But as Derick mentioned, gcc has a -M switch, which will output exactly \what we need. There are two variants )Tj
+0 -1.2 TD
+(of this switch: -M, which will list all header files included, including\ system header files, and -MM, which will )Tj
+0 -1.208 TD
+(only list header files included with the )Tj
+/T1_1 1 Tf
+(#include "...")Tj
+/TT0 1 Tf
+( directive and not those with the )Tj
+/T1_1 1 Tf
+(#include <...>)Tj
+14 0 0 14 10 216.2136 Tm
+(directive. )Tj
+12 0 0 12 10 182.141 Tm
+(At this point in time, it is probably a good idea to mention that a rule\ does not )Tj
+0 -1.2 TD
+(need to have commands associated with it. The following is therefor a to\tally )Tj
+T*
+(valid rule:)Tj
+14 0 0 14 25 118.2136 Tm
+(file.c : somefile.h anotherfile.h)Tj
+12 0 0 12 10 84.141 Tm
+(As a matter of fact, this is excactly the type of rules that gcc -MM out\puts. So )Tj
+T*
+(we add The following to our Makefile)Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(5 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj65 0 obj<</Length 3670>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/WebCaptureBG BMC 
+/WebCaptureFN <</L 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+/Artifact <</Type /Layout /BBox [25 538 535 562.4 ]>>BDC 
+Q
+0.816 0.816 0.816 rg
+25 538 510 24.4 re
+f
+EMC 
+q
+0 18 612 756 re
+W* n
+/Artifact <</Type /Layout /BBox [25 36 535 55.8 ]>>BDC 
+Q
+25 36 510 19.8 re
+f
+EMC 
+EMC 
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+0 0 0 rg
+BT
+/T1_1 1 Tf
+14 0 0 14 25 753.9082 Tm
+(makefile.dep : *.[Cch])Tj
+0 -1.2 TD
+(    for i in *.[Cc]; do gcc -MM "$${i}"; done > $@)Tj
+T*
+(include makefile.dep)Tj
+12 0 0 12 10 686.2356 Tm
+(Note the double $, this is because make uses $ as variable expansion, in\ this )Tj
+T*
+(case we would like a single $ to be part of the command, and as in C/C++\ with \\, )Tj
+T*
+(we simply put a double $ sign. For those not familiar with bash scriptin\g, this )Tj
+T*
+(command will execute a for loop, not unlike a for loop in programming, b\ut using )Tj
+T*
+(variable substitutions \(as is available in PHP and Perl\). The [Cch] is\ not unlike )Tj
+T*
+(a ? in wildcard expansion, except that it will only match the characters\ C, c and )Tj
+T*
+(h. This is called a glob expression. Strictly speaking * is also a glob \)Tj
+T*
+(expression \(man 7 glob\). Thus the command)Tj
+2.083 -3.2 Td
+(gcc -MM "$i")Tj
+-2.083 -3.2 Td
+(will be executed for every .c and .C file, substituting $i for each file\. Then we )Tj
+T*
+(capture the combined output from these commands into the file makefile.d\ep.)Tj
+0 -2.783 TD
+(The next line tells make to include makefile.dep as part of the current \Makefile. )Tj
+0 -1.2 TD
+(This is where the problem kicks in. Make first loads and parses the enti\re )Tj
+T*
+(Makefile, thus including makefile.dep, before actually processing any ru\les. Now, )Tj
+T*
+(I suppose you can see that when makefile.dep gets updated, it is already\ )Tj
+T*
+(included. According to the info pages, this should cause make to "abort"\ and )Tj
+T*
+(restart, causing the updated makefile.dep to be loaded. I sometimes susp\ect this )Tj
+T*
+(is not the case, but it is still better than not having this in at all.)Tj
+ET
+0.5 0.5 0.5 rg
+10 342.4 m
+10 344.4 l
+602 344.4 l
+601 343.4 l
+11 343.4 l
+11 343.4 l
+h
+f
+0.875 0.875 0.875 rg
+602 344.4 m
+602 342.4 l
+10 342.4 l
+11 343.4 l
+601 343.4 l
+601 343.4 l
+h
+f
+0 0 0 rg
+BT
+/T1_2 1 Tf
+16 0 0 16 10 302.3805 Tm
+(4.2.8 Concluding on Makefiles)Tj
+/T1_1 1 Tf
+12 0 0 12 10 267.8356 Tm
+(That should give you a great head start on Makefiles. This is by no mean\s a )Tj
+T*
+(complete guide, even though it covers practically everything I have ever\ used. )Tj
+T*
+(There are other nice tricks like)Tj
+14 0 0 14 25 203.9082 Tm
+(glfont.o : override cflags+=$\(shell freetype-config --cflags\))Tj
+12 0 0 12 10 169.8356 Tm
+(Which will cause the command freetype-config --cflags to be executed and\ it's )Tj
+T*
+(output made part of the cflags variable whilst compiling glfont.o. Also \the += )Tj
+T*
+(specifies that it should be appended to the existing cflags variable ins\tead of )Tj
+T*
+(merely discarding the existing value as would happen with =. The overrid\e keyword )Tj
+T*
+(also has special meaning in this context.)Tj
+0 -2.783 TD
+(So where can you find more information on this, and other features of GN\U make?)Tj
+2.083 -3.2 Td
+(info make)Tj
+ET
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+0 0 0 rg
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(6 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj66 0 obj<</Length 1170>>stream
+/Artifact <</Attached [/Top ]/Type /Pagination /BBox [18 778 582 787 ]>>BDC 
+0 0 0 rg
+0 i 
+BT
+/T1_0 1 Tf
+0 Tc 0 Tw 0  Ts 100  Tz 0 Tr 9 0 0 9 18 780.17 Tm
+(CS Students Linux User's Guide - Writing a Makefile)Tj
+ET
+EMC 
+/WebCaptureBG BMC 
+/WebCaptureFN <</L 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+/Artifact <</Type /Layout /BBox [25 761.4 535 766 ]>>BDC 
+Q
+0.816 0.816 0.816 rg
+25 761.4 510 4.6 re
+f
+EMC 
+EMC 
+EMC 
+/Article <</MCID 0 >>BDC 
+q
+0 18 612 756 re
+W* n
+0 0 0 rg
+BT
+/T1_1 1 Tf
+12 0 0 12 10 732.0356 Tm
+(should tell you all you need to know. Enjoy Makefiles -- they truly make\ your )Tj
+0 -1.2 TD
+(life easier.)Tj
+ET
+0 0 1 RG
+0.367 w 10 M 0 j 0 J []0 d 
+501.2 683.134 m
+602 683.134 l
+S
+0 0 1 rg
+BT
+/T1_1 1 Tf
+12 0 0 12 501.2 684.2356 Tm
+(Back to CSSLUG)Tj
+ET
+0.5 0.5 0.5 rg
+10 650.2 m
+10 652.2 l
+602 652.2 l
+601 651.2 l
+11 651.2 l
+11 651.2 l
+h
+f
+0.875 0.875 0.875 rg
+602 652.2 m
+602 650.2 l
+10 650.2 l
+11 651.2 l
+601 651.2 l
+601 651.2 l
+h
+f
+EMC 
+/Artifact <</Attached [/Bottom ]/Type /Pagination /BBox [18 5 582 14 ]>>BDC 
+Q
+0 0 0 rg
+BT
+/T1_0 1 Tf
+9 0 0 9 18 7.17 Tm
+(http://tlug.up.ac.za/old/csslug/writing_makefiles.html \(7 of 7\)11/6/20\06 10:25:54 AM)Tj
+ET
+EMC 
+
+endstreamendobj67 0 obj(CS Students Linux User's Guide - Writing a Makefile)endobj68 0 obj<</C 72 0 R/V 1.25>>endobj69 0 obj<</URL(http://tlug.up.ac.za/old/csslug/writing_makefiles.html)/S 70 0 R>>endobj70 0 obj<</G 71 0 R>>endobj71 0 obj<</CB 0/M[10.08 10.08 26.0 36.0]/S 0/PO 0/PS[792.0 612.0]/AH 0/AL 0/SU 1/AS 1/AT 70>>endobj72 0 obj[69 0 R]endobj73 0 obj(http://tlug.up.ac.za/old/csslug/writing_makefiles.html)endobj74 0 obj(Õ=O≈≈1û:ıïLä¡)endobj75 0 obj<</TS(D:20061106065554)/ID 74 0 R/CT(text/html)/O[7 0 R 31 0 R 35 0 R 38 0 R 42 0 R 45 0 R 48 0 R]/S/SPS/T 67 0 R/TID 77 0 R/SI 76 0 R>>endobj76 0 obj<</TS(D:20061106065554)/AU 73 0 R>>endobj77 0 obj(+qM¨È≥∂π3¬„É8v)endobj78 0 obj<</Names[74 0 R 75 0 R]>>endobj79 0 obj<</Names[73 0 R 75 0 R]>>endobj80 0 obj<</First 81 0 R/Parent 5 0 R/Count 1/Last 81 0 R/Title(tlug.up.ac.za)>>endobj81 0 obj<</Parent 80 0 R/Dest[7 0 R/XYZ 0 792 null]/SE 14 0 R/Title(CS Students Linux User's Guide - Writing a Makefile)>>endobj82 0 obj<</Subtype/XML/Length 3425/Type/Metadata>>stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="3.1-702">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xap="http://ns.adobe.com/xap/1.0/">
+         <xap:ModifyDate>2006-11-06T10:25:54+03:30</xap:ModifyDate>
+         <xap:CreateDate>2006-11-06T10:25:24+03:30</xap:CreateDate>
+         <xap:MetadataDate>2006-11-06T10:25:54+03:30</xap:MetadataDate>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">CS Students Linux User's Guide - Writing a Makefile</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/">
+         <xapMM:DocumentID>uuid:fb36cc66-7bd6-4150-bbcb-56513d3df4c0</xapMM:DocumentID>
+         <xapMM:InstanceID>uuid:618617ba-d500-4807-88e3-def23339a7a5</xapMM:InstanceID>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <pdf:Producer>Acrobat Web Capture 7.0</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobjxref
+0 83
+0000000004 65535 f
+0000000016 00000 n
+0000000143 00000 n
+0000000235 00000 n
+0000000006 00000 f
+0000000418 00000 n
+0000000000 00001 f
+0000000484 00000 n
+0000000701 00000 n
+0000000755 00000 n
+0000001169 00000 n
+0000001211 00000 n
+0000001314 00000 n
+0000001359 00000 n
+0000001408 00000 n
+0000001655 00000 n
+0000001744 00000 n
+0000001768 00000 n
+0000001917 00000 n
+0000002011 00000 n
+0000002239 00000 n
+0000002475 00000 n
+0000002717 00000 n
+0000002953 00000 n
+0000003201 00000 n
+0000003453 00000 n
+0000003699 00000 n
+0000003957 00000 n
+0000004206 00000 n
+0000004371 00000 n
+0000004411 00000 n
+0000004451 00000 n
+0000004655 00000 n
+0000004679 00000 n
+0000004720 00000 n
+0000004763 00000 n
+0000004979 00000 n
+0000005003 00000 n
+0000005046 00000 n
+0000005261 00000 n
+0000005285 00000 n
+0000005326 00000 n
+0000005367 00000 n
+0000005571 00000 n
+0000005595 00000 n
+0000005636 00000 n
+0000005829 00000 n
+0000005853 00000 n
+0000005894 00000 n
+0000006089 00000 n
+0000006113 00000 n
+0000006278 00000 n
+0000006302 00000 n
+0000006392 00000 n
+0000006485 00000 n
+0000007658 00000 n
+0000007878 00000 n
+0000007964 00000 n
+0000011600 00000 n
+0000015088 00000 n
+0000015154 00000 n
+0000018970 00000 n
+0000020147 00000 n
+0000020373 00000 n
+0000024129 00000 n
+0000027703 00000 n
+0000031424 00000 n
+0000032645 00000 n
+0000032714 00000 n
+0000032750 00000 n
+0000032839 00000 n
+0000032868 00000 n
+0000032969 00000 n
+0000032993 00000 n
+0000033065 00000 n
+0000033099 00000 n
+0000033251 00000 n
+0000033302 00000 n
+0000033336 00000 n
+0000033377 00000 n
+0000033418 00000 n
+0000033505 00000 n
+0000033635 00000 n
+trailer
+<</Size 83/Root 1 0 R/Info 3 0 R/ID[<EE6F739F845B924A838CDAFF0CB53634><A98903A47D2922448361609A9D681774>]>>
+startxref
+37137
+%%EOF

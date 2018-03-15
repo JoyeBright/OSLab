@@ -11,15 +11,12 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 * ### The Disk Scheduling Algorithms
   FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
-  
-* ### Project Management By Using Make GUN
-  GNUmakefile, Makeile, makefile
 
 ## Supported PLs
 C so far
 
 ## Instructor
-* [Javad PourMostafa] (http://github.com/joyebright)
+* [Javad PourMostafa](http://github.com/joyebright)
 
 ## License
 
