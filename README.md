@@ -13,7 +13,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
   
 * ### Project Management Using Make GNU
-  Makefile
+  Makefile, GNUMakefile
 
 ## Supported PLs
 C so far
