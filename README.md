@@ -19,7 +19,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
 C so far
 
 ## Instructor
-* [Javad PourMostafa](http://github.com/joyebright)
+* [Javad PourMostafa] (http://github.com/joyebright)
 
 ## License
 
