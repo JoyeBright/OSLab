@@ -1,5 +1,5 @@
 # Operating System Lab 962 
-Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018-1396
+Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018/1396
 
 ## Contents
 
@@ -11,12 +11,15 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 * ### The Disk Scheduling Algorithms
   FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
+  
+* ### Project Management Using Make GNU
+  Makefile, GNUMakefile
 
 ## Supported PLs
 C so far
 
 ## Instructor
-* [Javad PourMostafa](http://github.com/joyebright)
+* [Javad PourMostafa] (http://github.com/joyebright)
 
 ## License
 
