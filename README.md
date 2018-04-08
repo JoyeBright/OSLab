@@ -14,7 +14,10 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 * ### Project Management Using Make GNU
   Makefile, GNUMakefile
-
+  
+* ### Threads
+  Thread Libraries (POSIX Pthreads, Win32, Java threads)
+  
 ## Supported PLs
 C so far
 
@@ -25,3 +28,4 @@ C so far
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+* Drop me an E-mail in order to obtain the slides.
