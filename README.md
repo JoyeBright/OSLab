@@ -16,7 +16,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Makefile, GNUMakefile
   
 * ### Threads
-  Thread Libraries (POSIX Pthreads, Win32, Java threads)
+  Thread Libraries (POSIX Pthreads, Win32)
   
 ## Supported PLs
 C so far
