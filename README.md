@@ -28,5 +28,6 @@ C so far
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Acknowledge
 
-* Drop me an E-mail in order to obtain the slides.
+Drop me an E-mail in order to obtain the slides.
