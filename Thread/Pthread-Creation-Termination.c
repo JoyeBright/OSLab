@@ -7,8 +7,9 @@
 
 void* PrintHello(void* data){
 
-  int my_data = (intptr_t)data; // Data gets by thread
-  printf("Hello from new thread - got %d\n", my_data);
+  int *my_data = (int*)data; // Data gets by thread
+  int val = * my_data;
+  printf("Hello from new thread - got %d\n", val);
   pthread_exit(NULL);
 
 }
