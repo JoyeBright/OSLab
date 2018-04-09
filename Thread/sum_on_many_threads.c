@@ -37,7 +37,7 @@ struct sum_runner_struct {
    // Wait untill thread is done its work
    for(int i=0;i<num_args;i++){
       pthread_join(tids[i], NULL);
-      printf("Sum is %lld\n", args[i].answer);
+      printf("Sum for thread %lld is %lld\n", (long long)tids[i], args[i].answer);
    }
 
 
