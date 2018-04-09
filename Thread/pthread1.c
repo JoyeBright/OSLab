@@ -1,32 +1,45 @@
+
+// Thread Creation and Termination
+
 #include <stdio.h>
 #include <pthread.h>
-#include <stdlib.h>
+#include <stdint.h>
 
-void *print_message_function(void *ptr);
+void* PrintHello(void* data){
 
+  int my_data = (intptr_t)data; // Data gets by thread
+  printf("Hello from new thread - got %d\n", my_data);
+  pthread_exit(NULL);
+
+}
 int main() {
 
-  pthread_t thread1, thread2;
-  char *message1 = "Thread1";
-  char *message2 = "Thread2";
-  int iret1, iret2;
+  int rv; // Return Value
+  pthread_t thread_id; // Thread's ID (int)
+  int data_passed = 5; // Data passed to the new thread
 
-  iret1 = pthread_create(&thread1, NULL, print_message_function, (void*) message1);
-  iret2 = pthread_create(&thread2, NULL, print_message_function, (void*) message2);
+  // Create a new thread that will execute 'PrintHello'
+  /*
+     Note: all of the arguments are pointers
+     The first arg is a pointer to thread_id,
+     the second arg is used to set some attributes for the new thread_id
+     (if you use NULL it sets default values)
+     the third is void* (*start_routine)(void*), accepts void* as an arg and also returns a void* as a rv
+     what does it show? it indicates that is possible to pass an arbitrary piece of data to our new thread,
+     and that our new thread can return an arbitrary piece of data when it finishes.
+     how do we pass our thread an arbitrary argument? we use the fourth arg to call.
+  */
+  rv = pthread_create(&thread_id, NULL, PrintHello, &data_passed);
 
-  pthread_join(thread1 , NULL);
-  pthread_join(thread2 , NULL);
+  if(rv)
+  {
+    printf("Error: return code from pthread_create is %d\n", rv);
+    return (0);
+  }
+  printf("\nCreated new thread (%d) .... \n", (int)thread_id);
 
-  printf("Thread 1 returns: %d\n", iret1);
-  printf("Thread 2 returns: %d\n", iret2);
+  // Terminate the thread
+  pthread_exit(NULL);
 
-  return 0;
-}
-
-void *print_message_function(void * ptr){
-
-   char *message;
-   message = (char *) ptr;
-   printf("%s \n", message);
 
 }

@@ -1,6 +1,0 @@
-/tmp/ccYYZFqH.o: In function `main':
-pthread1.c:(.text+0x40): undefined reference to `pthread_create'
-pthread1.c:(.text+0x60): undefined reference to `pthread_create'
-pthread1.c:(.text+0x74): undefined reference to `pthread_join'
-pthread1.c:(.text+0x85): undefined reference to `pthread_join'
-collect2: error: ld returned 1 exit status
