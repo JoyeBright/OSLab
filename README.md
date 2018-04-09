@@ -1,4 +1,4 @@
-# Operating System Lab 962 
+# Operating System Lab 962
 Codes written for Operating System Lab course offered at University of Guilan in 2nd semester of 2018/1396
 
 ## Contents
@@ -8,16 +8,16 @@ Codes written for Operating System Lab course offered at University of Guilan in
 
 * ### The CPU Scheduling Algorithms
   FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
-  
+
 * ### The Disk Scheduling Algorithms
   FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
-  
+
 * ### Project Management Using Make GNU
   Makefile, GNUMakefile
-  
+
 * ### Threads
-  Thread Libraries (POSIX Pthreads)- Thread Creation and Termination
-  
+  Thread Libraries (POSIX Pthreads): Thread Creation and Termination - Sum of 0 to N 
+
 ## Supported PLs
 C so far
 
