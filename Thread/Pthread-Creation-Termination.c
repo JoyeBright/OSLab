@@ -1,20 +1,16 @@
 
 // Thread Creation and Termination
-
 #include <stdio.h>
 #include <pthread.h>
 #include <stdint.h>
 
 void* PrintHello(void* data){
-
   int *my_data = (int*)data; // Data gets by thread
   int val = * my_data;
   printf("Hello from new thread - got %d\n", val);
   pthread_exit(NULL);
-
 }
 int main() {
-
   int rv; // Return Value
   pthread_t thread_id; // Thread's ID (int)
   int data_passed = 5; // Data passed to the new thread
@@ -31,16 +27,12 @@ int main() {
      how do we pass our thread an arbitrary argument? we use the fourth arg to call.
   */
   rv = pthread_create(&thread_id, NULL, PrintHello, &data_passed);
-
   if(rv)
   {
     printf("Error: return code from pthread_create is %d\n", rv);
     return (0);
   }
   printf("\nCreated new thread (%d) .... \n", (int)thread_id);
-
   // Terminate the thread
   pthread_exit(NULL);
-
-
 }
