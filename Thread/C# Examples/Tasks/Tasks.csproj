@@ -52,7 +52,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Parallel\Shared\Shared.csproj">
+    <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{c06a7a9f-139c-4bf6-8396-392633fd61fa}</Project>
       <Name>Shared</Name>
     </ProjectReference>
