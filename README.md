@@ -16,10 +16,13 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Makefile, GNUMakefile
 
 * ### Threads
-  Thread Libraries (POSIX Pthreads): Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
+  POSIX Pthreads: Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
+  Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
+  
+  
 
 ## Supported PLs
-C so far
+Major parts of the project have been coded by C. In the meantime, some of the expriments have been written by C-family PLs.
 
 ## Instructor
 * [Javad PourMostafa] (http://github.com/joyebright)
