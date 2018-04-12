@@ -22,7 +22,8 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 
 ## Supported PLs
-Major parts of the project have been coded by C. In the meantime, some of the expriments have been written by C-family PLs.
+Major parts of the project have been coded by C.<br>
+In the meantime, some of the expriments have been written by C-family PLs.
 
 ## Instructor
 * [Javad PourMostafa] (http://github.com/joyebright)
