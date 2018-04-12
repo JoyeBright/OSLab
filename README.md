@@ -16,7 +16,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Makefile, GNUMakefile
 
 * ### Threads
-  POSIX Pthreads: Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
+  POSIX Pthreads: Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)<br>
   Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
   
   
