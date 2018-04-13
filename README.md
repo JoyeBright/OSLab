@@ -19,6 +19,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   POSIX Pthreads: Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)<br>
   Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
   
+* ### Process Synchronization
   
 
 ## Supported PLs
