@@ -20,6 +20,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
   
 * ### Process Synchronization
+  soon
   
 
 ## Supported PLs
