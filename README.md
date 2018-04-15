@@ -21,7 +21,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 * ### InterProcess Communication (IPC)
   Exchange of Information:
-   Shared Memory, Message Passing, Pipe, Shared File<br>
+   Shared Memory, Message Passing, <b>Pipe</b>, Shared File<br>
    Synchronizarion<br>
    Race Condition
 
