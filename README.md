@@ -20,10 +20,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
   
 * ### InterProcess Communication (IPC)
-  Exchange of Information:
-   Shared Memory, Message Passing, <b>Pipe</b>, Shared File<br>
-   Synchronizarion<br>
-   Race Condition
+  Exchange of Information: <b>Pipe</b>, Shared Memory, Message Passing,  Shared File<br>
 
 * ### Mutual Exclusion
   Software-based solution: Lock-vars, Decker, Peterson, Bakery (multiple processes)<br>
