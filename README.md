@@ -22,7 +22,6 @@ Codes written for Operating System Lab course offered at University of Guilan in
 * ### InterProcess Communication (IPC)
   Exchange of Information: <b>Pipe</b>, <b>Shared Memory</b>, <b>Message Passing</b><br>
 
-<br>
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
 In the meantime, some of the expriments have been written by C-family PLs.
