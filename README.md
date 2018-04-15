@@ -21,12 +21,12 @@ Codes written for Operating System Lab course offered at University of Guilan in
   
 * ### InterProcess Communication (IPC)
   Exchange of Information:
-   Shared Memory, Message Passing, Pipe, Shared File
-   Synchronizarion
+   Shared Memory, Message Passing, Pipe, Shared File<br>
+   Synchronizarion<br>
    Race Condition
 
 * ### Mutual Exclusion
-  Software-based solution: Lock-vars, Decker, Peterson, Bakery (multiple processes), 
+  Software-based solution: Lock-vars, Decker, Peterson, Bakery (multiple processes)
   Hardware-based solution: TSL
   OS-based solution(System Calls): Producer-Consumer, Semaphore, Dining Philosophers Problem
   PLs/Compiler-based solution: Monitor
