@@ -26,9 +26,9 @@ Codes written for Operating System Lab course offered at University of Guilan in
    Race Condition
 
 * ### Mutual Exclusion
-  Software-based solution: Lock-vars, Decker, Peterson, Bakery (multiple processes)
-  Hardware-based solution: TSL
-  OS-based solution(System Calls): Producer-Consumer, Semaphore, Dining Philosophers Problem
+  Software-based solution: Lock-vars, Decker, Peterson, Bakery (multiple processes)<br>
+  Hardware-based solution: TSL<br>
+  OS-based solution(System Calls): Producer-Consumer, Semaphore, Dining Philosophers Problem<br>
   PLs/Compiler-based solution: Monitor
 
 ## Supported PLs
