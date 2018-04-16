@@ -20,7 +20,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
   
 * ### InterProcess Communication (IPC)
-  Exchange of Information: <b>Pipe</b>, <b>Shared Memory</b>, <b>Message Passing</b><br>
+  Exchange of Information: Pipe
 
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
