@@ -23,7 +23,8 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Exchange of Information: Pipe
 
 * ### Synchronization 
-  Producer Consumer Problem
+  The Producer-Consumer Problem <br>
+  The Critical-Section Problem
 
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
