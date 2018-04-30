@@ -22,6 +22,10 @@ Codes written for Operating System Lab course offered at University of Guilan in
 * ### InterProcess Communication (IPC)
   Exchange of Information: Pipe
 
+* ### Synchronization 
+  The Producer-Consumer Problem <br>
+  The Critical-Section Problem
+
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
 In the meantime, some of the expriments have been written by C-family PLs.
