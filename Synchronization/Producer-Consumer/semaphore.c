@@ -4,6 +4,7 @@
 #include <semaphore.h>
 #include <pthread.h>
 #include <string.h>
+#include <unistd.h>
 
 int producer_count, consumer_count, buffer_length, *buffer, buffer_pos;
 sem_t buffer_mutex, fill_count, empty_count;
@@ -12,14 +13,22 @@ pthread_t *producers, *consumers;
 int produce(pthread_t self){
      int i = 0;
      int p = 1 + rand() % 40; // generate 1 to 40 different number
-     while(pthread_equal(*(producers+i),self) && i<producer_count){
+     while(!pthread_equal(*(producers+i),self) && i<producer_count){
        i++;
      }
      printf("Producer %d produced %d\n", i+1, p);
      return p;
 }
-void consume(){
-
+void consume(int p, pthread_t self){
+  int i=0;
+  while(!pthread_equal(*(consumers+i),self) && i < consumer_count){
+    i++;
+  }
+  printf("Buffer:");
+  for(i=0;i<buffer_pos;++i){
+    printf("%d",*(buffer+i));
+  }
+  printf("\n Consumer %d consumed %d \n Current Buffer length: %d\n",i+1, p, buffer_pos);
 }
 void *producer(void *args){
   while(1){
@@ -28,11 +37,26 @@ void *producer(void *args){
     sem_wait(&buffer_mutex);
     ++buffer_pos; //critical section
     *(buffer + buffer_pos) = p;
-    
+    sem_post(&buffer_mutex); //unlock Semaphore
+    sem_post(&fill_count); //unlock Semaphore
+    sleep(1 + rand() % 3);
   }
+  return NULL;
 }
 void *consumer(void *args){
+  int c;
+  while(1){
+    sem_wait(&fill_count);
+    sem_wait(&buffer_mutex);
+    c = * (buffer + buffer_pos);
+    consume(c, pthread_self());
+    --buffer_pos;
+    sem_post(&buffer_mutex);
+    sem_post(&empty_count);
+    sleep(1+rand()%5);
+  }
 
+  return NULL;
 }
 int main(){
   int err;
@@ -63,7 +87,7 @@ int main(){
     if(err != 0){
           printf("Error creating producer %d: %s\n", i+1, strerror(err));
     }else{
-         printf("Successfully creted consumer %d\n", i+1);
+         printf("Successfully created producer %d\n", i+1);
     }
   }
   // Create the consumers
@@ -75,4 +99,13 @@ int main(){
       printf("Successfully created consumer %d\n", i+1);
     }
   }
+
+  for(int i=0;i<producer_count;i++){
+    pthread_join(*(producers+i),NULL);
+  }
+  for(int i=0;i<consumer_count;i++){
+    pthread_join(*(consumers+i),NULL);
+  }
+
+  return 0;
 }
