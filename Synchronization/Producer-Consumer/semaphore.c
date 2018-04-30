@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 int producer_count, consumer_count, buffer_length, *buffer, buffer_pos;
-sem_t buffer_mutex, fill_count, empty_count;
+sem_t buffer_mutex, full_count, empty_count;
 pthread_t *producers, *consumers;
 
 int produce(pthread_t self){
@@ -35,10 +35,10 @@ void *producer(void *args){
     int p = produce(pthread_self());
     sem_wait(&empty_count);
     sem_wait(&buffer_mutex);
-    ++buffer_pos; //critical section
+    ++buffer_pos; // Critical section
     *(buffer + buffer_pos) = p;
-    sem_post(&buffer_mutex); //unlock Semaphore
-    sem_post(&fill_count); //unlock Semaphore
+    sem_post(&buffer_mutex); // unlock Semaphore
+    sem_post(&full_count); // unlock Semaphore
     sleep(1 + rand() % 3);
   }
   return NULL;
@@ -46,7 +46,7 @@ void *producer(void *args){
 void *consumer(void *args){
   int c;
   while(1){
-    sem_wait(&fill_count);
+    sem_wait(&full_count);
     sem_wait(&buffer_mutex);
     c = * (buffer + buffer_pos);
     consume(c, pthread_self());
@@ -65,7 +65,7 @@ int main(){
   srand(time(NULL));
   //First and 2nd semaphore
   sem_init(&buffer_mutex, 0, 1);
-  sem_init(&fill_count, 0, 0);
+  sem_init(&full_count, 0, 0);
 
 
   printf("Enter the number of Producer:");
