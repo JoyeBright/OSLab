@@ -23,7 +23,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Exchange of Information: Pipe
 
 * ### Synchronization
-  Solving the Producer-Consumer Problem Using Semaphore<br>
+  Solving the Producer-Consumer Problem Using Semaphores<br>
 
 
 ## Supported PLs
