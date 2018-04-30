@@ -5,7 +5,7 @@
 #include <pthread.h>
 #include <string.h>
 
-int producer_count, consumer_count, buffer_length, *buffer;
+int producer_count, consumer_count, buffer_length, *buffer, buffer_pos;
 sem_t buffer_mutex, fill_count, empty_count;
 pthread_t *producers, *consumers;
 
@@ -26,7 +26,9 @@ void *producer(void *args){
     int p = produce(pthread_self());
     sem_wait(&empty_count);
     sem_wait(&buffer_mutex);
-    ++buf_pos; //critical section
+    ++buffer_pos; //critical section
+    *(buffer + buffer_pos) = p;
+    
   }
 }
 void *consumer(void *args){
