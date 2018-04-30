@@ -12,14 +12,14 @@ pthread_t *producers, *consumers;
 
 int produce(pthread_t self){
      int i = 0;
-     int p = 1 + rand() % 40; // generate 1 to 40 different number
+     int item = 1 + rand() % 40; // generate 1 to 40 different number
      while(!pthread_equal(*(producers+i),self) && i<producer_count){
        i++;
      }
-     printf("Producer %d produced %d\n", i+1, p);
-     return p;
+     printf("Producer %d produced %d\n", i+1, item);
+     return item;
 }
-void consume(int p, pthread_t self){
+void consume(int item, pthread_t self){
   int i=0;
   while(!pthread_equal(*(consumers+i),self) && i < consumer_count){
     i++;
@@ -28,15 +28,15 @@ void consume(int p, pthread_t self){
   for(i=0;i<buffer_pos;++i){
     printf("%d",*(buffer+i));
   }
-  printf("\n Consumer %d consumed %d \n Current Buffer length: %d\n",i+1, p, buffer_pos);
+  printf("\n Consumer %d consumed %d \n Current Buffer length: %d\n",i+1, item, buffer_pos);
 }
 void *producer(void *args){
   while(1){
-    int p = produce(pthread_self());
+    int item = produce(pthread_self());
     sem_wait(&empty_count);
     sem_wait(&buffer_mutex);
     ++buffer_pos; // Critical section
-    *(buffer + buffer_pos) = p;
+    *(buffer + buffer_pos) = item;
     sem_post(&buffer_mutex); // unlock Semaphore
     sem_post(&full_count); // unlock Semaphore
     sleep(1 + rand() % 3);
@@ -44,12 +44,12 @@ void *producer(void *args){
   return NULL;
 }
 void *consumer(void *args){
-  int c;
+  int item;
   while(1){
     sem_wait(&full_count);
     sem_wait(&buffer_mutex);
-    c = * (buffer + buffer_pos);
-    consume(c, pthread_self());
+    item = * (buffer + buffer_pos);
+    consume(item, pthread_self());
     --buffer_pos;
     sem_post(&buffer_mutex);
     sem_post(&empty_count);
