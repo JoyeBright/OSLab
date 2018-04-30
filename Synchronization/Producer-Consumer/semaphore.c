@@ -6,7 +6,7 @@
 #include <string.h>
 #include <unistd.h>
 
-int producer_count, consumer_count, buffer_length, *buffer, buffer_pos;
+int producer_count, consumer_count, buffer_length, *buffer, buffer_pos=-1;
 sem_t buffer_mutex, full_count, empty_count;
 pthread_t *producers, *consumers;
 
@@ -25,8 +25,8 @@ void consume(int item, pthread_t self){
     i++;
   }
   printf("Buffer:");
-  for(i=0;i<buffer_pos;++i){
-    printf("%d",*(buffer+i));
+  for(i=0;i<=buffer_pos;++i){
+    printf("%d ",*(buffer+i));
   }
   printf("\n Consumer %d consumed %d \n Current Buffer length: %d\n",i+1, item, buffer_pos);
 }
@@ -35,7 +35,7 @@ void *producer(void *args){
     int item = produce(pthread_self());
     sem_wait(&empty_count);
     sem_wait(&buffer_mutex);
-    ++buffer_pos; // Critical section
+    ++buffer_pos; // Critical section (assign and increament by compiler)
     *(buffer + buffer_pos) = item;
     sem_post(&buffer_mutex); // unlock Semaphore
     sem_post(&full_count); // unlock Semaphore
