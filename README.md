@@ -24,8 +24,10 @@ Codes written for Operating System Lab course offered at University of Guilan in
 
 * ### Synchronization
   Solving the Producer-Consumer Problem Using Semaphores<br>
-
-
+  
+* ### Design a Virtual Memory Manager
+  Translates logical to physical addresses for a virtual address space
+  
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
 In the meantime, some of the expriments have been written by C-family PLs.
