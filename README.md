@@ -26,7 +26,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Solving the Producer-Consumer Problem Using Semaphores<br>
   
 * ### Virtual Memory Management
-  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer(TLB)
+  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB)
   
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
