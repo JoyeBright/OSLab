@@ -24,13 +24,13 @@ Codes written for Operating System Lab course offered at University of Guilan in
 
 * ### Synchronization
   Solving the Producer-Consumer Problem Using Semaphores<br>
-  
+
 * ### Virtual Memory Management
-  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB)
-  
+  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB) * There is not page fault handling
+
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
-In the meantime, some of the expriments have been written by C-family PLs.
+In the meantime, some of the experiments have been written by C-family PLs.
 
 ## Instructor
 * [Javad PourMostafa] (http://github.com/joyebright)
