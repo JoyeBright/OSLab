@@ -50,18 +50,19 @@ int main(int argc, char const *argv[]) {
    printf("*******************************\n");
 
    printf("Translating Logical Addresses to Physical Addresses\n\n");
+
    char *line = NULL;
    ssize_t read;
    size_t len = 0;
    while ((read = getline(&line, &len, fp)) != -1){
-     int offset = atoi(line) & 255; // Pick up just 8 rightmost bits
-     //printf("Offset:%d\n",offset);
-     int page = atoi(line) & 65280; // Pick up just 8 leftmost bits
-     //printf("P#:%d\n",page);
-     // Why do we need 8 different shifts?
-     // Because page var has leftmost bits which it calculates additional number
-     int pageNumber = page >> 8; // right shift is like dividing to two
-     //printf("page table num:%d\n",pageNumber);
+       int offset = atoi(line) & 255; // Pick up just 8 rightmost bits
+       //printf("Offset:%d\n",offset);
+       int page = atoi(line) & 65280; // Pick up just 8 leftmost bits
+       //printf("P#:%d\n",page);
+       // Why do we need 8 different shifts?
+       // Because page var has leftmost bits which it calculates additional number
+       int pageNumber = page >> 8; // right shift is like dividing to two
+       //printf("page table num:%d\n",pageNumber);
        int tlb_hit = 0;
        for(int i=0; i<TLB_SIZE;i++){
          if(tlb[i][0]==pageNumber){
@@ -70,19 +71,20 @@ int main(int argc, char const *argv[]) {
            break; // Leave the loop
          }
        }
-    // Count page faults
-    if(virtual_memory[pageNumber][0] < 0 && !tlb_hit){
-          pageFaultCount++;
-          srand(time(NULL));
-          //Eviction and replacement algorithms
-    }
-    // Calculate Physical Address
-     physicalAddress = (physical_mem[virtual_memory[pageNumber][0]] * PAGE_SIZE) + offset;
-     printf("Physical Address:%d\n",physicalAddress);
+      // Count page faults
+      if(virtual_memory[pageNumber][0] < 0 && !tlb_hit){
+            pageFaultCount++;
+            srand(time(NULL));
+            //Eviction and replacement algorithms
+      }
+      // Calculate Physical Address
+      physicalAddress = (physical_mem[virtual_memory[pageNumber][0]] * PAGE_SIZE) + offset;
+      printf("Physical Address:%d\n",physicalAddress);
 
    }
+  //Calculate the percentage of page faults
   double pageFaultRate = (double) pageFaultCount * 100;
-  printf("\nPage Fault Rate: %.2f",pageFaultRate);
+  printf("\nPage Fault Rate: %.2f\n",pageFaultRate);
 
   free(line);
   fclose(fp);
