@@ -8,6 +8,7 @@ const int TLB_SIZE = 16;
 const int PAGE_SIZE = 256;
 const int VM_SIZE = 256;
 const int MM_SIZE = 128;
+const int FRAME_SIZE = 256;
 
 int main(int argc, char const *argv[]) {
   /* code */
@@ -75,10 +76,11 @@ int main(int argc, char const *argv[]) {
       if(virtual_memory[pageNumber][0] < 0 && !tlb_hit){
             pageFaultCount++;
             srand(time(NULL));
+            // Check Page Table
             //Eviction and replacement algorithms
       }
       // Calculate Physical Address
-      physicalAddress = (physical_mem[virtual_memory[pageNumber][0]] * PAGE_SIZE) + offset;
+      physicalAddress = (physical_mem[virtual_memory[pageNumber][0]] * FRAME_SIZE) + offset;
       printf("Physical Address:%d\n",physicalAddress);
 
    }
