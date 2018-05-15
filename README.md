@@ -17,7 +17,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
 
 * ### Threads
   POSIX Pthreads: Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)<br>
-  Windows Thread(C#) : Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
+  Windows Thread(C#): Thread Creation and Termination - Sum of 0 to N (via 2 threads and multiple threads)
 
 * ### Exchange of Information:
   Pipe, Shared-Memory
@@ -26,7 +26,7 @@ Codes written for Operating System Lab course offered at University of Guilan in
   Solving the Producer-Consumer Problem Using Semaphores<br>
 
 * ### Virtual Memory Management
-  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB) <br> <b>* There is not page fault handling</b>
+  Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB) <br> <b>* There is no page fault handling</b>
 
 ## Supported PLs
 Major parts of the project have been coded by C.<br>
