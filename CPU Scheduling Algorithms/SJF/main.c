@@ -2,8 +2,9 @@
 
 int main() {
   /* code */
-  int i,j,n,bt[20],pos,temp,p[20],wt[20],tat[20];
-  float awt=0,atat=0;
+  int i, j, n, bt[20], pos, temp, wt[20], tat[20];
+  float awt=0, atat=0;
+
   printf("Enter Total Number of Processes:");
   scanf("%d",&n);
 
@@ -23,7 +24,7 @@ int main() {
       if(bt[j]<bt[pos])
          pos = j;
     }
-    //substitute
+    //substitute...........
     temp = bt[i];
     bt[i] = bt[pos];
     bt[pos] = temp;
