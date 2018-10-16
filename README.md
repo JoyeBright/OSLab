@@ -1,8 +1,8 @@
 # Operating System Lab
 
 * Codes written for Operating System Lab course offered at University of Guilan in 
-    * 1st semester of 2018/1396
-    * 2nd semester of 2018/1396
+    * [OSLab971] (#) 1st semester of 2018/1396
+    * [OSLab962] (#) 2nd semester of 2018/1396
 
 
 ## Contents
