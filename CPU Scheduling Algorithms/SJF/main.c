@@ -29,11 +29,13 @@ int main() {
     bt[pos] = temp;
   }
   //Calculating Waiting Time
-  wt[0] = 0;
-  for (i = 1; i < n; i++) {
-    wt[i] = 0;
+  wt[0]=0;
+  for(i=1;i<n;i++)
+  {
     for(j=0;j<i;j++)
-      wt[i] = wt[i]+bt[j];
+    {
+      wt[i]=bt[j]+wt[j];
+    }
   }
   printf("\nProcess\t Burst Time \t Waiting Time \t TurnAround Time");
   //Calculating TurnAround Time
