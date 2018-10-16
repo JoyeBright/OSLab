@@ -2,7 +2,7 @@
 
 * Codes written for Operating System Lab offered at University of Guilan: 
     * [OSLab971] 1st semester of 2018/1396
-    * [OSLab962] 2nd semester of 2018/1396
+    * [OSLab962] 2nd semester of 2018-2019/1396
 
 
 ## Contents
