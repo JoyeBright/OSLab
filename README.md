@@ -1,5 +1,5 @@
 # Operating System Lab
-Latest Updates: Codes written for Operating System Lab course offered at University of Guilan in 1st semester of 2018/1396
+Latest Update: Codes written for Operating System Lab course offered at University of Guilan in 1st semester of 2018/1396
 
 ## Contents
 
