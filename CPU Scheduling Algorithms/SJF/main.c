@@ -28,10 +28,6 @@ int main() {
     temp = bt[i];
     bt[i] = bt[pos];
     bt[pos] = temp;
-<<<<<<< HEAD
-
-=======
->>>>>>> 483f618b8b9ae80cabbeda74e9c80eb680a525a5
   }
   //Calculating Waiting Time
   wt[0] = 0;
