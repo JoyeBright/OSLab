@@ -12,7 +12,6 @@ int main() {
     /* code */
     printf("Burst Time P[%d]:",i+1);
     scanf("%d",&bt[i]);
-
   }
   //Sorting burst time in ascending order...
   //Selection Sort..........................
