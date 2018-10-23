@@ -32,6 +32,8 @@ int main()
 
     if(value>0 && value<=MaxNumTracks)
       queue[count1]= value;
+    else
+      printf("\n***Sth goes wrong***\n");
     count1++;
   }
 
