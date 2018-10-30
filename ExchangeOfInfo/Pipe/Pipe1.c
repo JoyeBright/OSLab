@@ -5,6 +5,9 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
 #define MSGSIZE 20
 
 char *msg1 = "Hello, OSLab962-1";
