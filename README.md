@@ -11,7 +11,7 @@
   System calls consist of fork(), exect(), wait()
 
 * ### The CPU Scheduling Algorithms
-  FCFS, SJF and also other Algorithms will be programmed by students in different iterations.
+  FCFS, SJF, RR and also other Algorithms will be programmed by students in different iterations.
 
 * ### The Disk Scheduling Algorithms
   FCFS, LCFS and also other Algorithms will be programmed by students in different iterations.
