@@ -31,8 +31,9 @@
    pthread_create(&tid, &attr, sum_runner, &limit);
    //Do other stuff here
 
-   // Wait untill thread is done its work
+   // Wait untill thread is done its mission
    pthread_join(tid, NULL);
+   // Interstingly if pthread_join is not used, sum won't return a right result.
    printf("Sum is %lld\n", sum);
 
  }
