@@ -34,8 +34,8 @@
   Translates logical to physical addresses for a virtual address space by using Translation Lookaside Buffer (TLB) <br> <b>* There is no page fault handling</b>
 
 ## Supported PLs
-Major parts of the project have been coded by C.<br>
-In the meantime, some of the experiments have been written by C-family PLs.
+Major parts of the project have been coded with C.<br>
+Also, some experiments have been coded with C-family PLs.
 
 ## Instructor
 * [Javad PourMostafa] (http://github.com/joyebright)
